@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/images.css">
+    </head>
+<body>
+    <div class="container">
+        <div class = "header">
+            <h1>Upload Photos</h1>
+            <h2></h2> Upload selfies and pictures to share with friends!</h2>
+        </div>
+        <div class="content">
+            <div class ="chosee">
+                <a href = "upload_form.html" class = "text_upload">Upload</a>\
+                <a href = "images.html" class = "text_image">Images</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Галерея изображений -->
+    <div class="images-container" >
+        <div class="images-header">
+            <div class="header-name">Name</div>
+            <div class="header-url">URL</div>
+            <div class ="header-delete">Delete</div>
+        </div>   
+        <!-- Изображения будут добавлены здесь динамически -->
+        <div id="images-list" id="images-list"></div>
+        <!-- Скрипты для управления галереей изображений -->
+        </div>  
+        <!-- Пустое состояние -->
+        <div id="empty-state" class="empty-state" style="display: none;">
+            <p>No images uploaded</p>
+            <a href="upload_form.html" class="upload-link">Upload your first image</a>
+        </div>
+    </div> 
+
+
+</div> 
+<script src="/js/storage.js"></script> 
+<script src="/js/images-list.js"></script> 
+            
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
